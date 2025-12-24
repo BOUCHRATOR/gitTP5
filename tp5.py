@@ -1,1 +1,5 @@
-print("Hello from MAIN and FEATURE-GREET branches")
+def greet():
+    return "Hello GitHub Actions"
+
+if __name__ == "__main__":
+    print(greet())
