@@ -1,4 +1,4 @@
-from main import greet
+from tp5 import greet
 def test_greet(capsys):
     greet("Alice")
     captured = capsys.readouterr()
